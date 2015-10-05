@@ -25,7 +25,7 @@ public class BankAccountUser {
 		System.out.println("Check balance? What is the password?");
 		password = scan.nextInt();
 		System.out.println(b1.getBalance(password));
-		// withdraws
+		// changes pw
 		System.out.println("Please change your password: ");
 		password = scan.nextInt();
 		b1.setPassword(password);

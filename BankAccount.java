@@ -39,7 +39,4 @@ public class BankAccount {
 		}
 		return 0;
 	}
-	public int setPassword() {
-		
-	}
 }
